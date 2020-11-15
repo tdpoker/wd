@@ -6,7 +6,7 @@ $(document).ready(function(){
             $(document).ready(function(){
             document.title = 'Judi Online | Kartu Poker | Dominoqq | Bandarq | Capsa Susun - WdPoker';
             $("meta[name='description']").attr('content', 'Situs judi online dengan kartu poker. Tersedia 12 jenis poker, dominoqq, bandarq dan capsa susun. Daftar sekarang juga di Wdpoker.');
-            $("link[rel='canonical']").attr('href', 'http://128.199.101.233/desktop/home/');
+            $("link[rel='canonical']").attr('href', 'http://128.199.101.233/desktop/home');
             $('head').append($('<link rel="alternate" media="only screen and (max-width: 640px)" />').attr('href', '/mobile/home'));
         });
     }
@@ -90,7 +90,7 @@ else if(document.URL.indexOf('mobile')>0){
         $(document).ready(function(){
         document.title = 'Judi Online | Kartu Poker | Dominoqq | Bandarq | Capsa Susun - WdPoker';
         $("meta[name='description']").attr('content', 'Situs judi online dengan kartu poker. Tersedia 12 jenis poker, dominoqq, bandarq dan capsa susun. Daftar sekarang juga di Wdpoker.');
-        $("link[rel='canonical']").attr('href', 'http://128.199.101.233/desktop/home/');
+        $("link[rel='canonical']").attr('href', 'http://128.199.101.233/desktop/home');
     });
 }
 }
