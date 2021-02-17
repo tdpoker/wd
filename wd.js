@@ -9,6 +9,7 @@ $('#wdpoker1').html('<h1>Judi Ludo King Online | Kartu Poker | Dominoqq | Bandar
             $("meta[name='description']").attr('content', 'Situs judi ludo king online dengan kartu poker. Tersedia 12 jenis poker, dominoqq, bandarq dan capsa susun. Daftar sekarang juga di Wdpoker.');
             $("link[rel='canonical']").attr('href', 'http://winwithiceland.com/desktop/home');
             $('head').append($('<link rel="alternate" media="only screen and (max-width: 640px)" />').attr('href', '/mobile/home'));
+            document.getElementsByTagName("h1")[0].innerHTML = "LUDO KING | KARTU POKER | DOMINOQQ | CAPSA SUSUN "; 
         });
     }
     else if(document.URL.indexOf('tournament')>0){
@@ -97,6 +98,7 @@ else if(window.location.hostname == '128.199.101.233' ){
                 $("meta[name='description']").attr('content', 'Wdpoker merupakan situs poker dengan permainan kartu, ludo king, domino qq, dadu online dan masih banyak lagi permainan yang bisa dimainkan.');
                 $("link[rel='canonical']").attr('href', 'http://128.199.101.233/desktop/home');
                 $('head').append($('<link rel="alternate" media="only screen and (max-width: 640px)" />').attr('href', '/mobile/home'));
+                document.getElementsByTagName("h1")[0].innerHTML = "Ludo King | Situs Poker Online Indonesia | WdPoker"; 
             });
         }
         else if(document.URL.indexOf('tournament')>0){
